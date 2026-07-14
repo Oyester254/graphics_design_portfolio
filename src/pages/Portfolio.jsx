@@ -123,7 +123,7 @@ function Portfolio() {
             ),
           )}
         </div>
-        //This is where modal begins
+        {/*This is where modal begins*/}
         {selectedImage && (
           <div
             className="fixed inset-0 bg-black/80 flex items-center justify-center z-50 animate-fadeIn"
@@ -143,7 +143,7 @@ function Portfolio() {
             />
           </div>
         )}
-        //modal end
+        {/*modal end*/}
       </div>
     </section>
   );
