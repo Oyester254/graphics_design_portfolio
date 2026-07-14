@@ -1,24 +1,26 @@
+const base = import.meta.env.BASE_URL;
+
 const projects = [
   {
     id: 1,
     title: "Company Poster",
     category: "Graphic Design",
     software: "CorelDRAW",
-    image: "/images/posters/digital.jpg",
+    image: `${base}images/posters/digital.jpg`,
   },
   {
     id: 2,
     title: "Advert",
     category: "Graphic Design",
     software: "Adobe Illustrator",
-    image: "/images/posters/poster.png",
+    image: `${base}images/posters/poster.png`,
   },
   {
     id: 3,
     title: "Business Card",
     category: "Graphic Design",
     software: "Adobe Illustrator",
-    image: "/images/posters/survey.jpg",
+    image: `${base}images/posters/survey.jpg`,
   },
 
   {
@@ -26,35 +28,35 @@ const projects = [
     title: "Modern House",
     category: "Architecture",
     software: "SketchUp",
-    image: "/images/sketchup/14.png",
+    image: `${base}images/sketchup/14.png`,
   },
   {
     id: 5,
     title: "Residential Building",
     category: "Architecture",
     software: "SketchUp",
-    image: "/images/sketchup/13.png",
+    image: `${base}images/sketchup/13.png`,
   },
   {
     id: 6,
     title: "Hip Roof",
     category: "Architecture",
     software: "SketchUp",
-    image: "/images/sketchup/16.png",
+    image: `${base}images/sketchup/16.png`,
   },
   {
     id: 7,
     title: "Chair",
     category: "3D",
     software: "Rhino",
-    image: "/images/rhino/one.png",
+    image: `${base}images/rhino/one.png`,
   },
   {
     id: 8,
     title: "Screwdriver",
     category: "3D",
     software: "Rhino",
-    image: "/images/rhino/three.png",
+    image: `${base}images/rhino/three.png`,
   },
 
   {
@@ -62,49 +64,49 @@ const projects = [
     title: "Model",
     category: "3D",
     software: "Rhino",
-    image: "/images/rhino/two.png",
+    image: `${base}images/rhino/two.png`,
   },
   {
     id: 10,
     title: "Logo",
     category: "Cards",
     software: "CorelDraw",
-    image: "/images/cards/logo.png",
+    image: `${base}images/cards/logo.png`,
   },
   {
     id: 11,
     title: "Front",
     category: "Cards",
     software: "CorelDraw",
-    image: "/images/cards/front.jpg",
+    image: `${base}images/cards/front.jpg`,
   },
   {
     id: 12,
     title: "",
     category: "Cards",
     software: "CorelDraw",
-    image: "/images/cards/back.jpg",
+    image: `${base}images/cards/back.jpg`,
   },
   {
     id: 13,
     title: "Interior 1",
     category: "Interior Design",
     software: "Revit",
-    image: "/images/revit/six.png",
+    image: `${base}images/revit/six.png`,
   },
   {
     id: 14,
     title: "Interior 1",
     category: "Interior Design",
     software: "Revit",
-    image: "/images/revit/four.png",
+    image: `${base}images/revit/four.png`,
   },
   {
     id: 15,
     title: "Interior 3",
     category: "Interior Design",
     software: "Revit",
-    image: "/images/revit/two.png",
+    image: `${base}images/revit/two.png`,
   },
 ];
 
